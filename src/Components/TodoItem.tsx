@@ -125,7 +125,7 @@ export const TodoItem: React.FC<T> = ({
   const handleBlur = (todoEdit: Todo) => {
     if (!editedText.trim()) {
       onChange(todoEdit, TypeChan.DELETE);
-    } else {
+    } else if (myTodo.title !== editedText) {
       onChange(todoEdit, TypeChan.CHANGE_NAME, editedText);
     }
 
@@ -139,6 +139,7 @@ export const TodoItem: React.FC<T> = ({
 
     if (e.key === 'Escape') {
       setIsEditing(false);
+      setEditedText(todoEdit.title);
     }
   };
 
