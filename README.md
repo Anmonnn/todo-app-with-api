@@ -21,15 +21,15 @@ Make sure you have the following installed on your local machine:
 
 Steps to Clone and Run the Project:
 1) Clone the repository
-git clone https://github.com/Anmonnn/todo-app-with-api.git
+`git clone https://github.com/Anmonnn/todo-app-with-api.git`
 
 2) Navigate to the project directory:
-cd todo-app-with-api
+`cd todo-app-with-api`
 
 3) Install dependencies:
-npm install
+`npm install`
 
 4) Run the project:
-npm start
+`npm start`
 
-This will start the development server and you can view the application by navigating to http://localhost:3000 in your browser.
+This will start the development server and you can view the application by navigating to `http://localhost:3000 in your browser`.
